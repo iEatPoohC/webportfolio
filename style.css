@@ -2,14 +2,15 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-html {
+/* html {
     height: 100vh;
-}
+} */
 
 body {
     background: #3E5151;  /* fallback for old browsers*/
     background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
 }
 
 .text-shadow
@@ -22,12 +23,14 @@ body {
 }
 
 #g-logo {
-    opacity: 1;
+    height: 50px;
+    opacity: 0.6;
     transition: opacity 0.2s ease;
 }
 
 #g-logo:hover {
-    opacity: 0.5;
+    opacity: 5;
+    color: rgb(255, 0, 0);
 }
 
 #landing-img {
@@ -76,6 +79,7 @@ body {
     width: 100%;
 }
 
-#footer {
-    background: linear-gradient(to left, #DECBA4, #3E5151);
+
+#backToTop {
+    scroll-behavior: smooth;
 }
