@@ -1,0 +1,81 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background: #3E5151;  /* fallback for old browsers*/
+    background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.text-shadow
+ {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#navbar {
+    background-color: #3e515156;
+}
+
+#g-logo {
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+
+#g-logo:hover {
+    opacity: 0.5;
+}
+
+#landing-img {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    height: 400px;
+    width: 400px;
+}
+
+
+#header-text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.card-body {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#socmed-icon {
+    color: #3E5151;
+}
+
+#socmed-icon:hover {
+    color: #ced1d1;
+}
+
+.fab {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    color: white;
+    background-color: #000000;
+    height: 50px;
+    width: 200px;
+}
+
+.btn:hover {
+    color: black;
+    background-color: #ced1d1;
+    cursor: pointer;
+}
+
+#gmap-canvas {
+    height: 60vh;
+    width: 100%;
+}
+
+#footer {
+    background: linear-gradient(to left, #DECBA4, #3E5151);
+}

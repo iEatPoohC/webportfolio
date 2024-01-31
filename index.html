@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practice</title>
+
+        <!-- Bootstrap link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+        <!-- CSS link -->
+        <link rel="stylesheet" type="text/css "href="style.css">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/jpg/png" href="./images/g-favicon.png">
+
+        <!-- Fab links -->
+        <script src="https://kit.fontawesome.com/5796775e7d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      
+      <!-- Navbar Start -->
+      <nav id="navbar" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/g-favicon.png" alt="Logo" width="40" height="40" class="d-flex d-lg-none img-fluid ms-3">
+          </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+              <ul class="navbar-nav align-items-center">
+                <li class="nav-item active">
+                  <a class="nav-link active text-shadow text-dark text-decoration-none link-info link-opacity-75 fs-5" aria-current="page" href="#landing">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-shadow text-dark text-decoration-none link-info link-opacity-75 fs-5" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="navbar" href="#landing">
+                    <img id="g-logo" src="images/g-favicon.png" alt="Logo" width="40" height="40" class="d-flex img-fluid mx-3 d-none d-lg-inline">
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-shadow text-dark text-decoration-none link-info link-opacity-75 fs-5" href="#tools">Tools</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-shadow text-dark text-decoration-none link-info link-opacity-75 fs-5" href="#contact">Contact</a>
+                </li>
+              </ul>
+              
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+      
+      <!-- Landing Page Start -->
+      <div class="container-fluid">
+        <div class="row justify-content-center align-items-center py-4 py-lg-5" id="landing">
+            <div class="col-10 col-md-3 p-3 py-lg-5 mb-5">
+                <img id="landing-img" src="images/rowan-atkinson.jpg" class="rounded-circle border border-dark img-fluid">
+            </div>
+            <div class="col-md-7 col-lg-5 pl-md-5 py-lg-5">
+                <h1 id="header-text-shadow" class="mt-2 text-center text-md-left">Rowan Atkinson</h1>
+                <h3 id="header-text-shadow" class="my-3 text-center text-md-left">Full Stack Web Developer</h3>
+                <p class="text-center">
+                    Rowan Atkinson is an English actor, comedian and writer widely regarded as among the funniest and most influential in British comedy history.
+                </p>
+            </div>
+        </div>        
+      <!-- Landing Page End -->
+
+      <!-- Projects Start  -->
+        <div id="projects" class="container-fluid min-vh-100">
+          <h1 id="header-text-shadow" class="mt-5 mb-1 text-center">My Projects</h1>
+              
+            <div class="card-deck my-5 justify-content-center d-lg-flex p-md-5 text-justify align-items-center">
+              
+              <!-- Card 1 -->
+              <div class="card col-md-3 mb-5 mx-auto">
+                <div class="card-body">
+                  <img id="projects-img" id="e-commerce" class="card-img-top" src="https://image.freepik.com/free-vector/ordering-goods-online-internet-store-online-shopping-niche-e-commerce-website-mother-buying-babies-clothes-footwear-toys-infant-accessories-vector-isolated-concept-metaphor-illustration_335657-2764.jpg" alt="e-commerce logo">
+                  <h5 class="card-title">E-Commerce</h5>
+                  <p class="card-text">Is the trading of goods and services on the internet. It is your bustling city center or brick-and-mortar shop translated into zeroes and ones on the internet superhighway.</p>
+                  <p class="card-text">
+                    <small>Last updated 5 minutes ago</small>
+                  </p>
+                </div>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="card col-md-3 mb-5 mx-auto">
+                <div class="card-body">
+                  <img id="projects-img" id="e-commerce" class="card-img-top" src="images/business-website.png" alt="e-commerce logo">
+                  <h5 class="card-title mt-5">Business Website</h5>
+                  <p class="card-text"> is a digital storefront that promotes a company and its products or services. It allows customers to learn about the business, browse products or services, and make purchases online</p>
+                  <p class="card-text">
+                    <small>Last updated 5 minutes ago</small>
+                  </p>
+                </div>
+              </div>
+              
+              <!-- Card 3 -->
+              <div class="card col-md-3 mb-5 mx-auto">
+                <div class="card-body">
+                  <img id="projects-img" class="card-img-top" src="images/blog.png" alt="e-commerce logo">
+                  <h5 class="card-title mt-5">Blog</h5>
+                  <p class="card-text">is a website that allows users to create entries in chronological order. The entries are then displayed in reverse chronological order, with the most recent entry appearing first. . 
+                  </p>
+                  <p class="card-text">
+                    <small>Last updated 5 minutes ago</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+        </div>
+      <!-- Projects End -->
+
+      <!-- Tools Start -->
+      <div class="row flex-column jumbotron min-vh-100" id="tools">
+        <h1 id="header-text-shadow" class="my-1 text-center">Tools</h1>
+        <div class="row justify-content-center py-3 mt-5">
+          <div class="col-md-3 col-lg-2 mx-5 my-3">
+                <h3 class="my-3 text-center text-shadow">STATIC</h3>
+                <div class="row justify-content-center">
+                    <div class="col-6">
+                        <img src="images/html5.png" class="img-fluid">
+                    </div>
+                    <div class="col-6">
+                        <img src="images/css3.png" class="img-fluid">
+                    </div>
+                    <div class="col-6">
+                        <img src="images/bootstrap.png" class="img-fluid">
+                    </div>
+                    <div class="col-6">
+                        <img src="./images/js.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-2 mx-4 my-3">
+                <h3 class="my-3 text-center text-shadow">DYNAMIC</h3>
+                <div class="row justify-content-center">
+                    <div class="col-6">
+                        <img  src="./images/mongodb.png" class="img-fluid">
+                    </div>
+                    <div class="col-6">
+                        <img src="./images/ejs.png" class="img-fluid">
+                    </div>
+                    <div class="col-6">
+                        <img src="./images/react.png" class="img-fluid">
+                    </div>
+                    <div class="col-6">
+                        <img src="./images/nodejs.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-2 mx-5 my-3">
+                <h3 class="my-3 text-center text-shadow">Other Tools</h3>
+                <div class="row">
+
+                    <div class="col-6">
+                        <img src="./images/heroku.png" class="img-fluid">
+                    </div>
+                    <div class="col-6">
+                        <img src="./images/git.png" class="img-fluid">
+                    </div>
+                    <div class="col-6">
+                        <img src="./images/postman.png" class="img-fluid">
+                    </div>
+                    <div class="col-6">
+                        <img src="./images/sublime-text-3.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- Tools End -->
+
+      <!-- Contact Start -->
+      <div id="contact" class="min-vh-100">
+        <h1 class="text-center my-5 " id="header-text-shadow">Contact</h1>
+          <div class="row justify-content-center mb-5 ">
+            <div class="col-3 col-md-1">
+              <a id="socmed-icon" href="https://facebook.com" target="_blank">
+                <i class="fab fa-facebook" aria-hidden="true"></i>
+              </a>
+            </div>
+            <div class="col-3 col-md-1">
+              <a id="socmed-icon" href="https://linkedin.com" target="_blank">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </div>
+            <div class="col-3 col-md-1">
+              <a id="socmed-icon" href="https://gitlab.com" target="_blank">
+                <i class="fab fa-gitlab" aria-hidden="true"></i>
+              </a>
+            </div>
+            <div class="col-3 col-md-1">
+              <a id="socmed-icon" href="https://github.com" target="_blank">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 my-4">
+              <h4 class="text-center my-4 text-shadow">Visit Us</h4>
+              <iframe id="gmap-canvas" src="https://maps.google.com/maps?q=centro%20escolar%20university%20manila&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+            <div class="col-md-6 my-4">
+              <h4 class="text-center my-4 text-shadow">Message Us</h4>
+              <form>
+                <div class="form-group mb-3">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group mb-3">
+                <label for="email">Email Address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+            </div>
+            <div class="form-group mb-3">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+          </div>
+                <button type="submit" class="btn">Send</button>
+              </form>
+            </div>
+          </div>
+      </div>
+      <!-- Contact End -->
+
+      <!-- Footer Start -->
+      <footer class="mt-5 text-shadow text-dark d-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center ">
+                    <h6>Rowan Atkinson || Full Stack Web Developer</h6>
+                    <p>&copy; For Educational Purposes Only 2024 </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+      <!-- Footer End -->
+              
+            
+        <!-- Bootstrap script -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
