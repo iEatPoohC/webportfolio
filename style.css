@@ -22,6 +22,31 @@ body {
     background-color: #3e515156;
 }
 
+#navAnimation {
+    color: #343a40;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+#navAnimation::after {
+    content: '';
+    height: 2px;
+    width: 0%;
+    background: rgb(9, 112, 79);
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition: 0.5s;
+}
+
+#navAnimation:hover::after {
+    width: 100%;
+    background-color: #0dcaf0;
+}
+
 #g-logo {
     height: 50px;
     opacity: 0.6;
@@ -48,36 +73,62 @@ body {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-#socmed-icon {
-    color: #3E5151;
-}
-
-#socmed-icon:hover {
-    color: #ced1d1;
-}
-
 .fab {
-    font-size: 3rem;
+    font-size: 65px;
+    color: #343a40;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: bold;
+    display: inline-block;
 }
+
+.fab::after {
+    content: '';
+    height: 5px;
+    width: 0%;
+    background: rgb(9, 112, 79);
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    transition: 0.5s;
+} 
+
+.fab:hover::after {
+    width: 100%;
+    background-color: #0dcaf0;
+}
+
 
 .btn {
     color: white;
     background-color: #000000;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     height: 50px;
     width: 200px;
 }
 
 .btn:hover {
     color: black;
-    background-color: #ced1d1;
+    background-color: #0dcaf0;
     cursor: pointer;
+    transition: 0.5s;
+} 
+
+.form-control{
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 #gmap-canvas {
-    height: 60vh;
+    height: 45vh;
     width: 100%;
+    border: #3E5151;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
+
 
 
 #backToTop {
